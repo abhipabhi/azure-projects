@@ -1,5 +1,9 @@
 # Azure Playbooks – Ready to Deploy Logic Apps
 
+![Azure](https://img.shields.io/badge/Azure-Logic%20Apps-blue)
+![Automation](https://img.shields.io/badge/Automation-ARM%20Templates-green)
+![Status](https://img.shields.io/badge/status-active-success)
+
 This repository contains production-ready Azure Logic App ARM templates.  
 Click the **Deploy to Azure** button below to deploy directly into your Azure tenant.
 
