@@ -34,7 +34,7 @@ Fetches incidents from Izoolab API, enriches them, checks for duplicates, and in
 
 Re-authenticate Connectors
 Some connectors require manual authentication after deployment:
-- Open Logic App → API Connections
+- Open Logic App → Connections
 - Edit each connection
 - Authenticate using your account
 
