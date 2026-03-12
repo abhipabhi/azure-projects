@@ -11,11 +11,12 @@ This repository focuses on practical tooling and templates for working with Azur
 ---
 
 ## Repository Structure
+
 azure-projects/
 │
-├── logic-app-parameteriser
-├── sentinel-playbooks
-├── deployment-tools
+├── logic-app-parameteriser/   # Tool for converting Logic App JSON to ARM templates
+├── sentinel-playbooks/        # Deployable Azure Sentinel Logic App playbooks
+├── deployment-tools/          # Utility scripts for Azure infrastructure
 │
 └── README.md
 
