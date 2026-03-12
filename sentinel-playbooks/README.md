@@ -20,7 +20,7 @@ Automatically sends email notifications when an incident is triggered.
 
 Fetches incidents from Izoolab API, enriches them, checks for duplicates, and ingests them into a Log Analytics Workspace.
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fabhipatidar343343%2FLogic_apps%2Frefs%2Fheads%2Fmain%2Fincident_ingestion_izoolab.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fabhipabhi%2Fazure-projects%2Frefs%2Fheads%2Fmain%2Fsentinel-playbooks%2Fincident_ingestion_izoolab%2Fincident_ingestion_izoolab_template.json)
 
 ---
 
