@@ -1,45 +1,86 @@
 # Azure Projects
 
-This repository contains a collection of projects related to Azure automation, infrastructure tooling, and security response workflows.
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Platform](https://img.shields.io/badge/platform-Azure-blue)
+![Language](https://img.shields.io/badge/language-Python-yellow)
 
-The goal of this repository is to explore practical Azure engineering problems such as Logic App automation, reusable deployment templates, and infrastructure utilities.
+Engineering tools and automation workflows for Azure infrastructure and security operations.
 
 ---
 
 ## Repository Structure
-
 azure-projects/
-
-- logic-app-parameteriser  
-- sentinel-playbooks  
-- deployment-tools  
+│
+├── logic-app-parameteriser
+├── sentinel-playbooks
+├── deployment-tools
+│
+└── README.md
 
 ---
 
 ## Projects
 
 ### Logic App Parameteriser
-A tool designed to convert Azure Logic App workflow JSON files into reusable and deployable ARM templates.  
-The tool focuses on automating parameter extraction and removing environment-specific values to enable repeatable deployments.
+
+Tool that converts Azure Logic App workflow JSON files into reusable and deployable ARM templates.
+
+Key goals:
+
+- Extract environment-specific values into parameters
+- Remove unnecessary metadata
+- Normalize template structure
+- Enable repeatable deployments across environments
 
 ---
 
 ### Sentinel Playbooks
-A collection of Azure Sentinel Logic App playbooks that can be deployed as templates.  
-These playbooks automate common incident response tasks such as enrichment, alert processing, and response workflows.
+
+Collection of Azure Sentinel Logic App playbooks designed for security incident automation.
+
+Example playbooks include:
+
+- Incident enrichment workflows
+- Automated response actions
+- Alert processing pipelines
+
+Each playbook is structured as a deployable template.
 
 ---
 
 ### Deployment Tools
-Utility scripts and small tools to assist with Azure infrastructure automation.  
-These tools may include template validation, resource inspection, and automation helpers.
+
+Utility scripts and tools for Azure infrastructure automation.
+
+Examples include:
+
+- ARM template validation utilities
+- Azure resource inspection tools
+- deployment automation helpers
 
 ---
 
-## Technologies Used
+## Technologies
 
 - Azure Logic Apps
+- Azure Sentinel
 - ARM Templates
 - Python
 - JSON
-- Azure Sentinel
+
+---
+
+## Goals of this Repository
+
+This repository focuses on building practical tools around:
+
+- Azure infrastructure automation
+- security response workflows
+- reusable deployment templates
+- developer tooling for Azure environments
+
+---
+
+## License
+
+This project is licensed under the MIT License.
