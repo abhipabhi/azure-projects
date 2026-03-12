@@ -12,6 +12,7 @@ This repository focuses on practical tooling and templates for working with Azur
 
 ## Repository Structure
 
+```
 azure-projects/
 │
 ├── logic-app-parameteriser/   # Tool for converting Logic App JSON to ARM templates
@@ -19,6 +20,7 @@ azure-projects/
 ├── deployment-tools/          # Utility scripts for Azure infrastructure
 │
 └── README.md
+```
 
 ---
 
