@@ -32,25 +32,11 @@ Fetches incidents from Izoolab API, enriches them, checks for duplicates, and in
 
 # Post-Deployment Actions (Required)
 
-After deployment:
-
-### 1️ Re-authenticate Connectors
+Re-authenticate Connectors
 Some connectors require manual authentication after deployment:
 - Open Logic App → API Connections
 - Edit each connection
 - Authenticate using your account
-
-### 2️ Update API Keys & Secrets
-Any API keys or secrets included in the template are placeholders.
-
-You MUST:
-- Open the HTTP authentication action
-- Replace:
-  - `INSERT API KEY HERE`
-  - `INSERT SECRET KEY HERE`
-- Save the Logic App
-
-ARM deployments reset these values to default placeholders.
 
 ---
 
