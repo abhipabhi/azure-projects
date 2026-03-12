@@ -1,0 +1,4 @@
+python>=3.8
+nbformat>=5.0
+nbconvert>=7.0
+ipykernel>=6.0
