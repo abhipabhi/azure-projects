@@ -12,7 +12,7 @@ Click the **Deploy to Azure** button below to deploy directly into your Azure te
 
 Automatically sends email notifications when an incident is triggered.
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fabhipatidar343343%2FLogic_apps%2Frefs%2Fheads%2Fmain%2Fsend_incident_email.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fabhipabhi%2Fazure-projects%2Frefs%2Fheads%2Fmain%2Fsentinel-playbooks%2Fsend-incident-email%2Fsend_incident_email_template.json)
 
 ---
 
