@@ -4,7 +4,9 @@
 ![Platform](https://img.shields.io/badge/platform-Azure-blue)
 ![Language](https://img.shields.io/badge/language-Python-yellow)
 
-Engineering tools and automation workflows for Azure infrastructure and security operations.
+A collection of Azure automation, infrastructure, and security engineering projects.
+
+This repository focuses on practical tooling and templates for working with Azure services such as Logic Apps, ARM templates, and security automation workflows.
 
 ---
 
